@@ -32,3 +32,4 @@ Plugin SDK in «sdk» folder.
 
 # Conclusion:
 Better use ByondControl instead of this non-working piece of code.
+http://austism.net/byondcontrol/
