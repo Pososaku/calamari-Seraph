@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="src\wsockloader\Release\wsock32.dll" Options="852936" LicenseDataFileName="build\Release\wsock32.dll.vmp" VMCodeSectionName=".piss" OutputFileName="wsock32.dll">
+        <Messages />
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress='VMProtectMarker &quot;DllMain&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;C:\Windows\System32\wsock32.dll&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;calamari.dll&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;a&quot;' Options="0" CompilationType="2" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+</Document>

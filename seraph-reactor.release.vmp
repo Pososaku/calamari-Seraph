@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="build\Release\calamari.dll" Options="857032" VMCodeSectionName=".calamari" OutputFileName="calamari.dll">
+        <Messages />
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress='VMProtectMarker &quot;Pocket::Sigscan::FindPattern@cc&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Pocket::Sigscan::FindPattern@ui&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;DllMain&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::Initialize&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::PatchDRM&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::CoreHook&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;EnumChildProc&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;EnumWindowsCallback&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;FindDirectXWindow&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;FindMainWindow&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::AddEvent&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::BSOD&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::DSHook&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::DXHook&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::Log&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::RemoveEvent&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;EnumProcessModulesHook&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::EndScene&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::Present&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::ResetHook&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::CenterPosition&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::CidName&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ConvertIntToPosition&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::GetCidTileCoords&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::GetTilePositionFromAbsolute&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::GetViewRange&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::LoadByondFunctions&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::PlayerCid&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;FindFilesWithExt&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::Plugin&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::~Plugin&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::GetConfig&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::ParseSettings&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::PollKeys&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::SetConfig&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::WndProc&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::Click&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::DungClientCtor&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::MouseDown&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::MouseUp&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::PutText&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::DSAddStat&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::CreateFileA&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::GetVolumeInformationA&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::IsBlacklisted&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::Unhook&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ServerIP&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ServerPort&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::AddKeyHandler&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::RemoveKeyHandler&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::ToggleGUIInteraction&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::ToggleHideGui&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::Log&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;dreamseeker&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\.license&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\Plugins&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\config.ini&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\calamari.log&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Initialization commence!&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;INSERT PRODUCT KEY HERE&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;LicenseKey&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Calamari&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;45&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;ToggleKey&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;35&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;HideKey&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;0&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;SpoofedSerial&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Loaded existing config.ini&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Created default config.ini&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Generated random serial.&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Patching/Hooking DreamSeeker&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\*.dll&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;InitializePlugin&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Failed to initialize plugin DLL &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Loaded plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Failed to load plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Failed to load plugin DLL &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Found DirectX window, hooking DX functions.&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;INVALID&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Calamari-X&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Registered to &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&apos; errored: &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&apos; from plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Event &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\\.\PhysicalDrive&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\\.\SCSI&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;C:\&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;icon-x=&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;;icon-y=&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;;screen-loc=&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;;left=1&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;mapwindow.map&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;map&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;0F BF 05 ?? ?? ?? ?? 50 0F BF 05 ?? ?? ?? ?? 50 0F BF 05 ?? ?? ?? ?? 50 C6 05 ?? ?? ?? ?? ??&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;byondcore.dll&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;0F BF 05 ?? ?? ?? ?? 8B 15 ?? ?? ?? ??&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;??0DungClient@@QAE@XZ&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GenMouseDownCommand@DungClient@@QAEHUCid@@PBDFFFFD11@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GenMouseUpCommand@DungClient@@QAEHUCid@@PBDFFFFD11@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GenClickCommand@DungClient@@QAEHUCid@@PBDFFFFD11@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GenMouseDragMoveCommand@DungClient@@QAEHUCid@@0PBD01FFD111@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetCidLoc@DungClient@@QAE?AUCid@@U2@@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetCidName@DungClient@@QAEPBDUCid@@@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetRemoteServerPort@DungClient@@QAEKXZ_0&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetServerIP@DungClient@@QAEPBDPBD@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetPlayerCid@DungClient@@QAE?AUCid@@XZ&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?PutText@CIOutputCtrl@@UAEHV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@PBD@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;byondwin.dll&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?AddStat@DSStat@@QAEXPBD0UCid@@G@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?CommandEvent@DungClient@@QAEXEGE@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?ParseCommand@DungClient@@QAEEPBDEE@Z&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetByondVersion@ByondLib@@QAEJXZ&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?GetByondBuild@ByondLib@@QAEJXZ&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\BYOND&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\Calamari&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;\key.txt&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;optimumtact&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;lummox jr&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;mrstonedone&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;mcdonald072&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Please set your License Key in &apos;Documents/BYOND/Calamari/config.ini&apos;!&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;Could not activate Calamari.&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;46.36.35.40&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;104.168.182.234&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;ntdll.dll&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;RtlAdjustPrivilege&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;NtRaiseHardError&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;EnumProcessModules&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;CreateFileA&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;GetVolumeInformationA&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;0F 84 ?? ?? ?? ?? 8D 85 ?? ?? ?? ?? 50 8D 85 ?? ?? ?? ?? 50 FF 15 ?? ?? ?? ?? 83 C4 ?? 50&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;dreamseeker.exe&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;0F 82 ?? ?? ?? ?? 56 FF 15 ?? ?? ?? ?? 33 F6&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ByondMajor&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ByondMinor&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::ByondVersion&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::RunCommand&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;LoadingFunction:a&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;&apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&apos; for plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;event &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;overriding &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Added &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&apos;, key &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&apos; named &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Registered key-handler for plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;%Y-%m-%d %H:%M:%S&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::MobScraperThread&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Reactor::ObjScraperThread&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot; event &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;overriding&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Removed &quot;' Options="0" />
+            <Procedure MapAddress='string &quot;[Calamari] Removed key-handler for plugin &apos;&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;?PutText@CIOutputCtrl@@UAEHUDMString@@PBD@Z&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::MouseMove&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;?GenMouseMoveCommand@DungClient@@QAEHUCid@@PBDFFFFD11@Z&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;SEHCidName&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;SEHPlayerCid&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::GetMobsOnScreen&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Byond::GetObjectsOnScreen&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::IPCRecv&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;Plugin::IPCSend&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;SEHIPCRecv&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;55 8B EC 80 3D ?? ?? ?? ?? ?? 75 ?? E8 ?? ?? ?? ?? 8B 45 ??&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;E8 ?? ?? ?? ?? 83 C4 ?? 8B F0 33 C9&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;Calamari::Hooks::Byond32&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;&lt;div class=&quot;connectionClosed internal restarting&quot;&gt;The connection has been closed because the server is restarting. Please wait while you automatically reconnect.&lt;/div&gt;&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;&lt;span class=&apos;boldannounce&apos;&gt;Rebooting World.&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;Detected world reboot, clearing cid cache.&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;?IsByondMember@DungClient@@QAE_NPAJ@Z&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;?IsByondMember@DungPager@@QAE_NPAJ@&quot;' Options="0" CompilationType="2" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+        <DLL Name="font.ttf" FileName="font.ttf" />
+    </DLLBox>
+    <Script />
+    <LicenseManager ProductCode="/lMpU0TY0vE=" Algorithm="RSA" Bits="2048" PublicExp="AAEAAQ==" PrivateExp="sTN6rZTU7AK/nb2Jse1ecDl8kY4kspHg1C7Ez2aDmEsCQJRQ28KtFIboRWK47Pk09t7Wlj7jmg/EI1WilX2IepiMGq8wjvv206BYwZ5D8OI5rO7t+FD/XweKdTS7HlypZjAZF4JDt27iPXhiCAx4A1GsNKadE6NHgr1gOedKWcQc3Lu3Ocl30/uiOVxThT3rSsxF/xFNmfC3LljZpslZ8V1o0FgIp5SFNmTcKoxpvMWe3wJI33ySeFzJwFEtMux5empMFhNlZc30x+vkW2k+5LLHCALNU0zWGkb6tLDjcpxl1TQal5WGUdV90QiNTbb1JMIo0A74JWRmELG7HQFnIQ==" Modulus="4fAze/QPJSIf9SXt1AwI6cQ3rX7vd9hAk/rdciF78ynFAiT7k+FIwHfV/E8zwZ1GfCyIiDcdK7ndbjfkKhODfK2Ya7c4c0rRGeUMFScJClmz0DrI7mxqOaY88hccgQ4GJnUPI47ReGH8UO/cTTX9Sh5wUBnoTccoZG6faedluloMe+JsX6RC6uOMIFE/AJFto+/gsXDCLVkcvRQ4w1hdPRYR2Oo6VqVStcuodfv+CzJYXWABUQlomHQLGy2crj3/ntF/rqILOx7txitw4qqoiZHDvcMJgnKACOq1gxbt8D4XD1/69NvwkcCgMOkl0kJwRtZkUFbRc4h48mgnaI2LwQ==" ActivationServer="https://calamari.space/srl" />
+</Document>
