@@ -1,5 +1,5 @@
 # Description
-Yes, this is the legendary calamari. The same cheat from RSHOE's videos. Now this is a non-working piece of code that only runs on versions 512-513. At the moment, most servers only work stably on 514, so there are few places you can test it. (lifeweb and some other servers that have not yet enabled client version checking)
+Yes, this is the legendary calamari. The same cheat from RSHOE's videos. Now this is a non-working piece of code that only runs on versions 512-513. At the moment, most servers only work stably on 514, so there are few places you can test it.
 
 
 # Installation Instruction #1:
